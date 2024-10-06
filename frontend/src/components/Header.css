@@ -1,0 +1,7 @@
+body {
+    padding-top: 40px; /* Adjust padding to account for the fixed navbar */
+}
+
+.nav-item {
+    padding-right: 10px;
+}

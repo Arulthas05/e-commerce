@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    height: 60px;
+}
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 60px;
+    background-color: #343a40;
+}
+.sidebar a {
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+    flex-grow: 1;
+}
+.profile-dropdown {
+    display: flex;
+    align-items: center;
+}
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
